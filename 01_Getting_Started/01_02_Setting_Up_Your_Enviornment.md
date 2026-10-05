@@ -9,7 +9,7 @@ Conda is a package manager that helps manage different software environments. If
 Open your terminal or command prompt and run the following command to create a new Conda environment named `lil_llama_index`, and install Python 3.10.
 
 ```
-conda create --name lil_llama_index python==3.10 python-dotenv
+conda create --name lil_llama_index python==3.11 python-dotenv
 ```
 
 ### Activate the Conda environment
@@ -46,7 +46,7 @@ LlamaIndex is nicely seperated into numerous smaller packages.
 For now, let's just install the starter package. As we progress along the course I will add additional libraries as needed with `pip install ...` in the first cell of every notebook.
 
 ```python
-pip install llama-index==0.10.37
+pip install llama-index
 ```
 
 LlamaIndex is a new library, and changes fast. It's important that you pin your version to the one above so you don't run into any code errors as you follow along with me throughout the course.
@@ -74,13 +74,13 @@ pip install llama-index-vector-stores-qdrant==0.2.8 llama-index-readers-file==0.
 We'll conistently make use of Cohere and OpenAI throughout the course, so let's install those dependencies as well.
 
 ```python
-pip install cohere==5.5.0 
+pip install cohere
 pip install openai==1.30.1
-pip install llama-index-llms-cohere==0.2.0 
+pip install llama-index-llms-cohere 
 pip install llama-index-llms-openai==0.1.19
-pip install llama-index-embeddings-cohere==0.1.8
+pip install llama-index-embeddings-cohere
 pip install llama-index-embeddings-openai==0.1.9
-pip install llama-index-postprocessor-cohere-rerank==0.1.6 
+pip install llama-index-postprocessor-cohere-rerank 
 ```
 
 # Link IPython kernel to Conda Enviornment
