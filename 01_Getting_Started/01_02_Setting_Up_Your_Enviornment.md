@@ -18,6 +18,9 @@ Once the environment is created, activate it using the following command:
 
 ```
 conda activate lil_llama_index
+or
+source activate lil_llama_index(replace >conda init)
+
 ```
 
 ### Install Jupyter and JupyterLab
