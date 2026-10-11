@@ -75,13 +75,18 @@ We'll conistently make use of Cohere and OpenAI throughout the course, so let's 
 
 ```python
 pip install cohere
-pip install openai==1.30.1
 pip install llama-index-llms-cohere 
-pip install llama-index-llms-openai==0.1.19
 pip install llama-index-embeddings-cohere
-pip install llama-index-embeddings-openai==0.1.9
 pip install llama-index-postprocessor-cohere-rerank 
 ```
+
+
+```python openai
+pip install openai==1.30.1
+pip install llama-index-llms-openai==0.1.19
+pip install llama-index-embeddings-openai==0.1.9
+```
+
 
 # Link IPython kernel to Conda Enviornment
 
