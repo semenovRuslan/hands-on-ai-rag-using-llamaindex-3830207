@@ -13,4 +13,8 @@ This will open JupyterLab in your default web browser, allowing you to create an
 
 ```
 jupyter lab
+
 ```
+### Additional installation
+pip install pdf2image 
+pip install chromadb
