@@ -18,3 +18,7 @@ jupyter lab
 ### Additional installation
 pip install pdf2image 
 pip install chromadb
+pip install fitz  
+### install tool for PDF processing
+sudo apt-get update
+sudo apt-get install poppler-utils
